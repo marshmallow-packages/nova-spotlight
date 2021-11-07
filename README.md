@@ -2,7 +2,14 @@
 
 # Laravel Nova Spotlight
 
-This package customizes Laravel Nova with Spotlight. This is a WIP.
+This package adds Spotlight to Laravel Nova. 
+The package adds three commands; view, edit or create a new Laravel Nova resource.
+
+View / Edit -> Resource name -> Search query
+New -> Resource name
+
+It uses the base of the global Laravel Nova search, all titles and policies are defined in the resource.
+Note: This is a WIP.
 
 ### Installation
 
