@@ -17,12 +17,12 @@ This command publishes a copy of the Nova Layout to the vendor folder, copied fr
 php artisan vendor:publish --provider="Marshmallow\NovaSpotlight\NovaSpotlightServiceProvider" --tag="views" --force
 ```
 
-It adds these script:
+It adds these scripts
 
 ```
-    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-    @livewireScripts
-    @livewireStyles
+<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+@livewireScripts
+@livewireStyles
 ```
 
 ```
