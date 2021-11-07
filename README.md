@@ -10,6 +10,17 @@ This package customizes Laravel Nova with Spotlight. This is a WIP.
 composer require marshmallow/nova-spotlight
 ```
 
+Enable CSS in the Config of Spotlight
+```
+'include_css' => true,
+```
+
+To publish use:
+```
+php artisan vendor:publish --tag=livewire-ui-spotlight-config
+```
+
+
 ### Vendor Publish
 
 This command publishes a copy of the Nova Layout to the vendor folder, copied from (nova.resources.views.layout)
