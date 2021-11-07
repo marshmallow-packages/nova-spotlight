@@ -2,7 +2,7 @@
 
 # Laravel Nova Spotlight
 
-This package customizes Laravel Nova with Spotlight.
+This package customizes Laravel Nova with Spotlight. This is a WIP.
 
 ### Installation
 
