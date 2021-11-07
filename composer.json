@@ -1,0 +1,52 @@
+{
+    "name": "marshmallow/nova-spotlight",
+    "description": "A Spotlight extension for Laravel Nova",
+    "keywords": [
+        "Laravel Nova ",
+        "Marshmallow",
+        "laravel",
+        "nova",
+        "Spotlight"
+    ],
+    "homepage": "https://github.com/marshmallow-packages/nova-spotlight",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stef van Esch",
+            "email": "stef@marshmallow.dev",
+            "homepage": "https://marshmallow.dev/",
+            "role": "Developer"
+        },
+        {
+            "name": "LTKort",
+            "email": "lars@kort.dev",
+            "homepage": "https://kort.dev/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1|^8.0",
+        "livewire/livewire": "^2.4",
+        "wire-elements/spotlight": "^1.0"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Marshmallow\\NovaSpotlight\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Marshmallow\\NovaSpotlight\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Marshmallow\\NovaSpotlight\\NovaSpotlightServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
